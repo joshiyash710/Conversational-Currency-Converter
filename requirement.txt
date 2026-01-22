@@ -1,0 +1,19 @@
+# LangChain core
+langchain==1.2.6
+langchain-huggingface==0.1.13
+langgraph==1.0.0
+
+# Hugging Face
+huggingface-hub>=0.16.4
+transformers>=4.33.2
+torch>=2.1.0
+
+# Streamlit for UI
+streamlit>=1.25.0
+
+# Data and utilities
+requests>=2.31.0
+python-dotenv>=1.0.1
+
+# Optional (for type hints and dev)
+typing-extensions>=4.7.1
