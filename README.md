@@ -1,10 +1,10 @@
-💱 Conversational Currency Converter
+# 💱 Conversational Currency Converter
 
 A friendly AI assistant for currency conversion, built with LangChain, Hugging Face, and Streamlit.
 
 Talk naturally, ask for conversions between currencies, and get instant results using live exchange rates. Perfect for demonstrating real-world AI agent capabilities with tool integration.
 
-🚀 Features
+## 🚀 Features
 
 Multi-turn conversational interface
 
@@ -20,14 +20,15 @@ Follow-up questions handled automatically if the target currency is missing
 
 Clean separation of agent logic (agent_core.py) and UI (app.py)
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 Component	Technology / Library
 LLM	Hugging Face (Mistral-7B-Instruct-v0.2)
 Agent	LangChain / LangGraph (create_react_agent)
 Tools / Conversion	Python requests + live exchange rates API
 Frontend / UI	Streamlit
 Environment	Python 3.10+, virtualenv (venv)
-📦 Installation
+
+## 📦 Installation
 
 Clone the repository:
 
@@ -61,7 +62,7 @@ streamlit run app.py
 
 That’s it! The app should launch in your browser and you can start chatting with the currency conversion agent immediately.
 
-⚡ Usage
+## ⚡ Usage
 
 Type your messages naturally in the chat input
 
@@ -77,7 +78,7 @@ Assistant: Sure, which currency should I convert it to?
 User: Euros
 Assistant: 100 USD is approximately 92 EUR.
 
-🧩 Project Structure
+## 🧩 Project Structure
 LangChain_AI-Agents/
 ├─ agent_core.py       # LLM, agent, and tool logic
 ├─ app.py              # Streamlit frontend
@@ -85,7 +86,7 @@ LangChain_AI-Agents/
 ├─ .env                # Hugging Face API token (not tracked)
 └─ README.md
 
-🌐 Supported Currencies
+## 🌐 Supported Currencies
 
 USD (Dollar)
 
@@ -99,7 +100,7 @@ JPY (Yen)
 
 More can be added easily by extending CURRENCY_ALIASES in agent_core.py.
 
-📈 Next Features / TODO
+## 📈 Next Features / TODO
 
 Auto-detect currencies from free-text (e.g., "500 rupees to dollars")
 
@@ -109,6 +110,6 @@ Multi-currency conversions in one request
 
 Export conversation history
 
-⚖️ License
+## ⚖️ License
 
 MIT License – free to use, modify, and distribute.
